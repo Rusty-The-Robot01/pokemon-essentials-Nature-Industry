@@ -26,12 +26,21 @@ class PokemonTrainerCard_Scene
     @sprites["overlay"] = BitmapSprite.new(Graphics.width, Graphics.height, @viewport)
     pbSetSystemFont(@sprites["overlay"].bitmap)
     @sprites["trainer"] = IconSprite.new(336, 112, @viewport)
-    @sprites["trainer"].setBitmap(GameData::TrainerType.player_front_sprite_filename($player.trainer_type))
-    @sprites["trainer"].x -= (@sprites["trainer"].bitmap.width - 128) / 2
+    if $player.female?
+    @sprites["trainer"].setBitmap(_INTL("Graphics/Pictures/SchoolID_Female"))
+    @sprites["trainer"].x -= (@sprites["trainer"].bitmap.width - 128) /2
     @sprites["trainer"].y -= (@sprites["trainer"].bitmap.height - 128)
     @sprites["trainer"].z = 2
     pbDrawTrainerCardFront
     pbFadeInAndShow(@sprites) { pbUpdate }
+  else
+    @sprites["trainer"].setBitmap(_INTL("Graphics/Pictures/SchoolID_Male"))
+    @sprites["trainer"].x -= (@sprites["trainer"].bitmap.width - 128) /2
+    @sprites["trainer"].y -= (@sprites["trainer"].bitmap.height - 128)
+    @sprites["trainer"].z = 2
+    pbDrawTrainerCardFront
+    pbFadeInAndShow(@sprites) { pbUpdate }
+    end
   end
 
   def pbDrawTrainerCardFront

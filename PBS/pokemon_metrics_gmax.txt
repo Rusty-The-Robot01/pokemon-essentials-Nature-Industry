@@ -1,0 +1,211 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[VENUSAUR,2]
+BackSprite = 0,0
+FrontSprite = 0,8
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[CHARIZARD,3]
+BackSprite = 0,0
+FrontSprite = 9,5
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[BLASTOISE,2]
+BackSprite = 0,0
+FrontSprite = 0,8
+ShadowX = 1
+ShadowSize = 4
+#-------------------------------
+[BUTTERFREE,1]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[PIKACHU,17]
+BackSprite = 0,0
+FrontSprite = 6,5
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[MEOWTH,3]
+BackSprite = 0,0
+FrontSprite = -2,7
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[MACHAMP,1]
+BackSprite = 0,0
+FrontSprite = -5,6
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[GENGAR,2]
+BackSprite = 0,0
+FrontSprite = 2,16
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[KINGLER,1]
+BackSprite = 0,0
+FrontSprite = 0,10
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[LAPRAS,1]
+BackSprite = 0,0
+FrontSprite = 0,10
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[EEVEE,2]
+BackSprite = 0,0
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[SNORLAX,1]
+BackSprite = 0,0
+FrontSprite = 0,15
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[GARBODOR,1]
+BackSprite = 0,0
+FrontSprite = -2,10
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[MELMETAL,1]
+BackSprite = 0,0
+FrontSprite = 0,5
+ShadowX = 4
+ShadowSize = 4
+#-------------------------------
+[RILLABOOM,1]
+BackSprite = 0,0
+FrontSprite = -1,5
+ShadowX = -1
+ShadowSize = 4
+#-------------------------------
+[CINDERACE,1]
+BackSprite = 0,0
+FrontSprite = 11,5
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[INTELEON,1]
+BackSprite = 0,0
+FrontSprite = -3,4
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[CORVIKNIGHT,1]
+BackSprite = 0,0
+FrontSprite = -7,7
+ShadowX = 4
+ShadowSize = 4
+#-------------------------------
+[ORBEETLE,1]
+BackSprite = 0,0
+FrontSprite = 0,16
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[DREDNAW,1]
+BackSprite = 0,0
+FrontSprite = -6,5
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[COALOSSAL,1]
+BackSprite = 0,0
+FrontSprite = -2,4
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[FLAPPLE,1]
+BackSprite = 0,0
+FrontSprite = -2,4
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[APPLETUN,1]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowX = 3
+ShadowSize = 4
+#-------------------------------
+[SANDACONDA,1]
+BackSprite = 0,0
+FrontSprite = -1,7
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[TOXTRICITY,2]
+BackSprite = 0,0
+FrontSprite = -4,10
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[TOXTRICITY,3]
+BackSprite = 0,0
+FrontSprite = -4,10
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[CENTISKORCH,1]
+BackSprite = 0,0
+FrontSprite = -4,6
+ShadowX = 4
+ShadowSize = 4
+#-------------------------------
+[HATTERENE,1]
+BackSprite = 0,0
+FrontSprite = 5,4
+ShadowX = 2
+ShadowSize = 4
+#-------------------------------
+[GRIMMSNARL,1]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[ALCREMIE,63]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[COPPERAJAH,1]
+BackSprite = 0,0
+FrontSprite = -5,15
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[DURALUDON,1]
+BackSprite = 0,0
+FrontSprite = -4,5
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[ETERNATUS,1]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[URSHIFU,2]
+BackSprite = 0,0
+FrontSprite = 2,4
+ShadowX = 0
+ShadowSize = 4
+#-------------------------------
+[URSHIFU,3]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 4

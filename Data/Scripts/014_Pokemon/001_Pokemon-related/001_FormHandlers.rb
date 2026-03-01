@@ -149,6 +149,16 @@ MultipleForms.register(:UNOWN, {
   }
 })
 
+#===============================================================================
+# Fantaisen Forms
+#===============================================================================
+MultipleForms.register(:FANTAISEN, {
+  "getFormOnCreation" => proc { |pkmn|
+    next rand(5)
+  }
+})
+#===============================================================================
+
 MultipleForms.register(:SPINDA, {
   "alterBitmap" => proc { |pkmn, bitmap|
     pbSpindaSpots(pkmn, bitmap)

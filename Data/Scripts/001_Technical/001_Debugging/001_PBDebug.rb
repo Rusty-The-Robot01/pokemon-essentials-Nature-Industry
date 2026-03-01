@@ -5,7 +5,7 @@ module PBDebug
     begin
       yield
     rescue
-      PBDebug.log("")
+      PBaDebug.log("")
       PBDebug.log("**Exception: #{$!.message}")
       backtrace = ""
       $!.backtrace.each { |line| backtrace += line + "\r\n" }

@@ -1,0 +1,30 @@
+---
+include:
+- "pokemon-essentials/Data/Scripts/**/*.rb"
+- "Plugins/MAG/**/*.rb"
+- Rakefile
+- Gemfile
+- "*.gemspec"
+- "**/*.rb"
+exclude:
+- "Data/Scripts/**"
+- spec/**/*
+- test/**/*
+- vendor/**/*
+- ".bundle/**/*"
+require: []
+domains: []
+reporters:
+- rubocop
+- require_not_found
+formatter:
+  rubocop:
+    cops: safe
+    except: []
+    only: []
+    extra_args: []
+type_checker:
+  rules: {}
+require_paths: []
+plugins: []
+max_files: 5000

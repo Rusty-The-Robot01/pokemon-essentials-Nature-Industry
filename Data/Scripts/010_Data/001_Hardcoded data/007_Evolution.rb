@@ -506,6 +506,14 @@ GameData::Evolution.register({
   }
 })
 
+GameData::Evolution.register({
+  :id            => :LevelPoisonInParty,
+  :parameter     => Integer,
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.level >= parameter && $player.has_pokemon_of_type?(:POISON)
+  }
+})
+
 #===============================================================================
 # Evolution methods that trigger when using an item on the Pokémon
 #===============================================================================

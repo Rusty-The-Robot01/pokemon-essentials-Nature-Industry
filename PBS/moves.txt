@@ -479,7 +479,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = AlwaysCriticalHit
-Flags = Contact,CanProtect,CanMirrorMove,Punching,CannotMetronome
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
 Description = Strikes with a fierce blow through mastery of the Dark style. Always results in a critical hit.
 #-------------------------------
 [LASHOUT]
@@ -945,7 +945,7 @@ Power = 100
 Accuracy = 100
 TotalPP = 5
 Target = NearOther
-FunctionCode = None
+FunctionCode = DoubleDamageOnDynamaxTargets
 Flags = CanProtect,CannotMetronome
 Description = The user unleashes a strong beam from its core.
 #-------------------------------
@@ -1730,7 +1730,7 @@ Accuracy = 0
 TotalPP = 15
 Target = NearOther
 FunctionCode = RaiseTargetAtkSpAtk2
-Flags = CannotMetronome
+Flags = CannotMetronome,IgnoresMaxGuard
 Description = The user sharply raises the target's Attack and Sp. Atk stats by decorating the target.
 #-------------------------------
 [FAIRYLOCK]
@@ -6230,7 +6230,7 @@ Accuracy = 0
 TotalPP = 5
 Target = AllBattlers
 FunctionCode = StartPerishCountsForAllBattlers
-Flags = Sound
+Flags = Sound,IgnoresMaxGuard
 Description = Any Pokémon that hears this song faints in three turns, unless it switches out of battle.
 #-------------------------------
 [PLAYNICE]
@@ -7636,6 +7636,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = SetUserAbilityToTargetAbility
 Description = The user mimics the target completely, copying the target's natural Ability.
+Flags = IgnoresMaxGuard
 #-------------------------------
 [SKILLSWAP]
 Name = Skill Swap
@@ -7984,7 +7985,7 @@ Power = 100
 Accuracy = 100
 TotalPP = 5
 Target = NearOther
-FunctionCode = None
+FunctionCode = DoubleDamageOnDynamaxTargets
 Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
 Description = The user becomes a gigantic shield and slams into the target.
 #-------------------------------
@@ -7996,7 +7997,7 @@ Power = 100
 Accuracy = 100
 TotalPP = 5
 Target = NearOther
-FunctionCode = None
+FunctionCode = DoubleDamageOnDynamaxTargets
 Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
 Description = The user becomes a gigantic sword and cuts the target.
 #-------------------------------
@@ -8633,7 +8634,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = HitThreeTimesAlwaysCriticalHit
-Flags = Contact,CanProtect,CanMirrorMove,Punching,CannotMetronome
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
 Description = Hits three times in a row with mastery of the Water style. This attack always deals critical hits.
 #-------------------------------
 [WATERSHURIKEN]

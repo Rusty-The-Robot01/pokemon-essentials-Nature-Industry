@@ -295,8 +295,7 @@ module Settings
   # shown in the Area page when viewing that Pokédex list.
   def self.pokedex_names
     return [
-      [_INTL("Kanto Pokédex"), 0],
-      [_INTL("Johto Pokédex"), 1],
+      [_INTL("Crosanti Pokédex"), 0],
       _INTL("National Pokédex")
     ]
   end

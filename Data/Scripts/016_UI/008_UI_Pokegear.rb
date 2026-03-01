@@ -176,11 +176,11 @@ MenuHandlers.add(:pokegear_menu, :map, {
   }
 })
 
-MenuHandlers.add(:pokegear_menu, :phone, {
+
+  MenuHandlers.add(:pokegear_menu, :phone, {
   "name"      => _INTL("Phone"),
   "icon_name" => "phone",
   "order"     => 20,
-#  "condition" => proc { next $PokemonGlobal.phone && $PokemonGlobal.phone.contacts.length > 0 },
   "effect"    => proc { |menu|
     pbFadeOutIn do
       scene = PokemonPhone_Scene.new
@@ -191,16 +191,84 @@ MenuHandlers.add(:pokegear_menu, :phone, {
   }
 })
 
-MenuHandlers.add(:pokegear_menu, :jukebox, {
-  "name"      => _INTL("Jukebox"),
-  "icon_name" => "jukebox",
+  
+
+#MenuHandlers.add(:pokegear_menu, :jukebox, {
+ # "name"      => _INTL("Jukebox"),
+ # "icon_name" => "jukebox",
+ # "order"     => 30,
+ # "effect"    => proc { |menu|
+ #   pbFadeOutIn do
+ #     scene = PokemonJukebox_Scene.new
+ #     screen = PokemonJukeboxScreen.new(scene)
+ #     screen.pbStartScreen
+ #   end
+ #   next false
+ # }
+#})
+
+MenuHandlers.add(:pokegear_menu, :pokedex, {
+  "name"      => _INTL("Pokédex"),
+  "icon_name" => "pokedex",
   "order"     => 30,
+  "condition" => proc { next $player.has_pokedex && $player.pokedex.accessible_dexes.length > 0 },
+  "effect"    => proc { |menu|
+    pbPlayDecisionSE
+    if Settings::USE_CURRENT_REGION_DEX
+      pbFadeOutIn do
+        scene = PokemonPokedex_Scene.new
+        screen = PokemonPokedexScreen.new(scene)
+        screen.pbStartScreen
+        #menu.pbRefresh
+      end
+    elsif $player.pokedex.accessible_dexes.length == 1
+      $PokemonGlobal.pokedexDex = $player.pokedex.accessible_dexes[0]
+      pbFadeOutIn do
+        scene = PokemonPokedex_Scene.new
+        screen = PokemonPokedexScreen.new(scene)
+        screen.pbStartScreen
+        #menu.pbRefresh
+      end
+    else
+      pbFadeOutIn do
+        scene = PokemonPokedexMenu_Scene.new
+        screen = PokemonPokedexMenuScreen.new(scene)
+        screen.pbStartScreen
+       # menu.pbRefresh
+      end
+    end
+    next false
+  }
+})
+
+MenuHandlers.add(:pokegear_menu, :box, {
+  "name"      => _INTL("PKMN Storage"),
+  "icon_name" => "box",
+  "order"     => 40,
+  "condition" => proc { next $player.has_pokedex && $player.pokedex.accessible_dexes.length > 0 },
   "effect"    => proc { |menu|
     pbFadeOutIn do
-      scene = PokemonJukebox_Scene.new
-      screen = PokemonJukeboxScreen.new(scene)
+      scene = PokemonStorageScene.new
+      screen = PokemonStorageScreen.new(scene, $PokemonStorage)
+      screen.pbStartScreen(0)
+      end
+    next false
+  }
+})
+
+MenuHandlers.add(:pokegear_menu, :quests, {
+  "name"      => _INTL("To-Do"),
+  "icon_name" => "quest",
+  "order"     => 50,
+  "condition" => proc { next hasAnyQuests? },
+  "effect"    => proc { |menu|
+    pbPlayDecisionSE
+    pbFadeOutIn {
+      scene = QuestList_Scene.new
+      screen = QuestList_Screen.new(scene)
       screen.pbStartScreen
-    end
+      #menu.pbRefresh
+    }
     next false
   }
 })

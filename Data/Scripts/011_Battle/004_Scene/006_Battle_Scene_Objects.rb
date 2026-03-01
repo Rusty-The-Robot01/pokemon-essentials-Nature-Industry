@@ -18,8 +18,8 @@ class Battle::Scene::PokemonDataBox < Sprite
   # Height in pixels of a status icon
   STATUS_ICON_HEIGHT = 16
   # Text colors
-  NAME_BASE_COLOR         = Color.new(72, 72, 72)
-  NAME_SHADOW_COLOR       = Color.new(184, 184, 184)
+  NAME_BASE_COLOR         = Color.new(200, 200, 200)
+  NAME_SHADOW_COLOR       = Color.new(0, 0, 0)
   MALE_BASE_COLOR         = Color.new(48, 96, 216)
   MALE_SHADOW_COLOR       = NAME_SHADOW_COLOR
   FEMALE_BASE_COLOR       = Color.new(248, 88, 40)

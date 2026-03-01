@@ -1,0 +1,9 @@
+[CROSANTIMAIL]
+Name = Crosanti Mail
+NamePlural = Crosanti Mail
+PortionName = piece of Crosanti Mail
+PortionNamePlural = pieces of Crosanti Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring the Crosanti Academy insignia. Let a Pokémon hold it for delivery.

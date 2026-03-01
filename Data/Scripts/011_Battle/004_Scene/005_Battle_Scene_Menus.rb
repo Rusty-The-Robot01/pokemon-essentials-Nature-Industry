@@ -199,7 +199,7 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
   attr_reader :battler
   attr_reader :shiftMode
 
-  GET_MOVE_TEXT_COLOR_FROM_MOVE_BUTTON = true
+  GET_MOVE_TEXT_COLOR_FROM_MOVE_BUTTON = false
 
   # If true, displays graphics from Graphics/UI/Battle/overlay_fight.png
   #     and Graphics/UI/Battle/cursor_fight.png.
@@ -349,7 +349,8 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
       next if !@visibility["button_#{i}"]
       x = button.x - self.x + (button.src_rect.width / 2)
       y = button.y - self.y + 14
-      moveNameBase = TEXT_BASE_COLOR
+      moveNameBase = Color.new(0, 0, 0)
+      #moveNameBase = TEXT_BASE_COLOR
       if GET_MOVE_TEXT_COLOR_FROM_MOVE_BUTTON && moves[i].display_type(@battler)
         # NOTE: This takes a color from a particular pixel in the button
         #       graphic and makes the move name's base color that same color.
@@ -358,7 +359,7 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
         #       code to ensure the font is an appropriate color.
         moveNameBase = button.bitmap.get_pixel(10, button.src_rect.y + 34)
       end
-      textPos.push([moves[i].name, x, y, :center, moveNameBase, TEXT_SHADOW_COLOR])
+      textPos.push([moves[i].name, x, y, :center, moveNameBase, Color.new(148, 148, 148)])
     end
     pbDrawTextPositions(@overlay.bitmap, textPos)
   end

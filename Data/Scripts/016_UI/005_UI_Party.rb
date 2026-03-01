@@ -179,7 +179,7 @@ class PokemonPartyPanel < Sprite
   def initialize(pokemon, index, viewport = nil)
     super(viewport)
     @pokemon = pokemon
-    @active = (index == 0)   # true = rounded panel, false = rectangular panel
+    @active = false   # true = rounded panel, false = rectangular panel
     @refreshing = true
     self.x = (index % 2) * Graphics.width / 2
     self.y = (16 * (index % 2)) + (96 * (index / 2))

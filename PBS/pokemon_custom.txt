@@ -1,0 +1,330 @@
+#-------------------------------
+[SKIDDER]
+Name = Skidder
+Types = GROUND
+BaseStats = 45,65,50,40,45,65
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = SPEED,1
+CatchRate = 45
+Happiness = 50
+Abilities = TREMOR
+HiddenAbilities = SKYFORCE
+Moves = 1,TACKLE,1,TAILWHIP,4,DUSTKICK,7,QUICKATTACK,10,MUDSLAP,13,DOUBLETEAM,16,BULLDOZE,20,ACROBATICS,24,AGILITY,28,DIG,32,TAILWIND,36,EARTHPOWER,40,SKYDROP,44,EARTHQUAKE
+TutorMoves = ACROBATICS,IRONTAIL,UTURN,SWIFT,ENDEAVOR,BOUNCE,FLING,COVET,LOWKICK,MUDSHOT,DRILLRUN,DEFOG,HYPERBEAM,DIG,ROCKSLIDE,SMACKDOWN,EARTHQUAKE,BULLDOZE,MUDSLAP,PROTECT,RAINDANCE,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SWIFT,SUBSTITUTE,UTURN,ENDURE,ROOST,AERIALACE,ACROBATICS,TAILWIND
+EggMoves = SANDTOMB,QUICKGUARD,FEINT,AIRCUTTER,FAKEOUT,MUDSPORT,BATONPASS,ROCKCLIMB,SPIKES,WINGATTACK
+EggGroups = Field,Flying
+HatchSteps = 5120
+Height = 0.3
+Weight = 2.5
+Color = Brown
+Shape = BipedalTail
+Habitat = Grassland
+Category = Skidding
+Pokedex = Skidder darts across dusty hills, using its gliding flaps to ride on loose soil. It often practices sharp turns at high speeds, kicking up sand as a territorial display.
+Generation = 1
+#-------------------------------
+#-------------------------------
+#-------------------------------
+[GELOZEE]
+Name = Gelozee
+Types = ICE
+BaseStats = 50,70,45,40,40,65
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = ATTACK,1
+CatchRate = 45
+Happiness = 50
+Abilities = PERMAFROST
+HiddenAbilities = IRONFIST
+Moves = 1,POUND,1,LEER,4,FROSTNIP,7,FOCUSENERGY,10,ICYWIND,13,FEINT,16,AVALANCHE,20,BULKUP,24,ICEPUNCH,28,COUNTER,32,ENCORE,36,SNOWSCAPE,40,FOCUSPUNCH
+TutorMoves = ICEPUNCH,DRAINPUNCH,LOWKICK,DUALCHOP,FIREPUNCH,THUNDERPUNCH,FAKEOUT,ROLEPLAY,FOCUSPUNCH,HELPINGHAND,ICEBEAM,BLIZZARD,LOWSWEEP,BRICKBREAK,FOCUSBLAST,PROTECT,HAIL,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SUBSTITUTE,ENDURE,FOCUSENERGY,BULKUP,SWORDSDANCE
+EggMoves = ICEBALL,ENCORE,FAKEOUT,COUNTER,POWERUPPUNCH,BELLYDRUM,YAWN,MACHPUNCH,QUICKGUARD,CROSSCHOP
+EggGroups = Field,Humanlike
+HatchSteps = 5120
+Height = 0.5
+Weight = 6.2
+Color = White
+Shape = BipedalTail
+Habitat = Grassland
+Category = Frost Punch
+Pokedex = Gelozee trains by throwing punches at snow-covered trees to toughen its knuckles. When the cold gets harsher, it only trains harder, treating the chill as a sparring partner.
+Generation = 1
+#-------------------------------
+#-------------------------------
+#-------------------------------
+[CLANKLET]
+Name = Clanklet
+Types = STEEL
+BaseStats = 55,65,60,35,50,45
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = DEFENSE,1
+CatchRate = 45
+Happiness = 50
+Abilities = REFINERY
+HiddenAbilities = STAMINA
+Moves = 1,TACKLE,1,HARDEN,4,METALSHARD,7,LEER,10,ROCKTHROW,13,IRONDEFENSE,16,METALCLAW,20,SMACKDOWN,24,WORKUP,28,IRONHEAD,32,STEALTHROCK,36,HEAVYSLAM,40,ROCKSLIDE
+TutorMoves = IRONDEFENSE,IRONHEAD,ROCKBLAST,BULLETPUNCH,MAGNETRISE,METALSOUND,MUDSLAP,ROLLOUT,WIDEGUARD,BLOCK,ANCIENTPOWER,METALCLAW,SMACKDOWN,ROCKSLIDE,IRONDEFENSE,ROCKBLAST,HEAVYSLAM,GYROBALL,PROTECT,RAINDANCE,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SUBSTITUTE,ENDURE,WORKUP
+EggMoves = METALBURST,ANCIENTPOWER,ROCKPOLISH,SANDTOMB,MUDSHOT,SPIKES,CRUSHCLAW,WIDEGUARD,HARDEN,GUARDSPLIT
+EggGroups = Mineral,Water3
+HatchSteps = 5120
+Height = 0.5
+Weight = 17.5
+Color = Gray
+Shape = Insectoid
+Habitat = WatersEdge
+Category = Apprentice
+Pokedex = Clanklet scuttles along rocky shores, collecting metal scraps to patch its shell. Its pincers clang like hammers, shaping debris into crude armor.
+Generation = 1
+#-------------------------------
+#-------------------------------
+#-------------------------------
+[WORREY]
+Name = Worrey
+Types = NORMAL
+BaseStats = 70,55,35,55,25,35
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 51
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = RUNAWAY
+HiddenAbilities = PRANKSTER
+Moves = 1,TACKLE,1,FAKETEARS,5,BITE,10,BABYDOLLEYES,15,CHARM,18,COVET,21,FOLLOWME,25,DIZZYPUNCH,29,HELPINGHAND,33,YAWN,37,FIRSTIMPRESSION,44,PLAYROUGH
+TutorMoves = TAKEDOWN,CHARM,AGILITY,PROTECT,FACADE,ACROBATICS,TRAILBLAZE,SWIFT,ENDURE,FALSESWIPE,BODYSLAM,THUNDERWAVE,SUBSTITUTE,CRUNCH,COVET,CONFETTICANNON,KNOCKOFF,UTURN,THIEF,SNORE,SWIFT,BITE
+EggMoves = FAKEOUT,ENDEAVOR,STOCKPILE,SPITUP,STUFFCHEEKS,SWALLOW,SCREECH,SWITCHEROO
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.3
+Weight = 6.2
+Color = Brown
+Shape = BipedalTail
+Habitat = Urban
+Category = Coward
+Pokedex = Worrey tend to fall in the back of the Quakkedi troops, the fear of being front and center sometimes render them motionless.
+Evolutions = QUAKKEDI,Level,20
+Generation = 1
+#-------------------------------
+[QUAKKEDI]
+Name = Quakkedi
+Types = NORMAL
+BaseStats = 88,85,45,60,55,60
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 145
+EVs = SPEED,2
+CatchRate = 127
+Happiness = 50
+Abilities = KLUTZ
+HiddenAbilities = SLAPSTICK
+Moves = 1,TACKLE,1,FAKETEARS,1,BITE,1,CHARM,23,DIZZYPUNCH,26,FIRSTIMPRESSION,30,CONFETTICANNON,34,PLAYROUGH,41,DOUBLEEDGE,40,BODYSLAM
+TutorMoves = TAKEDOWN,CHARM,AGILITY,PROTECT,FACADE,ACROBATICS,CONFUSERAY,FIREFANG,THUNDERFANG,POISONFANG,SWIFT,LOWKICK,ENDURE,FALSESWIPE,SHADOWCLAW,BODYSLAM,DRAINPUNCH,THUNDERWAVE,ROCKSLIDE,SUBSTITUTE,IRONDEFENSE,XSCISSOR,CRUNCH,IRONHEAD,STEALTHROCK,HEAVYSLAM,KNOCKOFF,RECYCLE,IRONTAIL,UTURN,THIEF,SUCKERPUNCH,ROCKTOMB,SNORE,GEARGRIND
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.54
+Weight = 4.9
+Color = White
+Shape = BipedalTail
+Habitat = Urban
+Category = Brown
+Pokedex = Troops of Quakkedi put on shows to entertain other Pokemon. They will juggle anything they can hold.
+Generation = 1
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+[SHROCADOX]
+Name = Shrocadox
+Types = NORMAL,GHOST
+BaseStats = 45,40,40,55,50,75
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 140
+EVs = SPECIAL_ATTACK,1
+CatchRate = 120
+Happiness = 50
+Abilities = ETHEREAL
+Moves = 1,SCRATCH,1,LEER,3,ASTONISH,6,CONFUSERAY,9,FORESIGHT,12,FAKETEARS,15,NIGHTSHADE,18,DISABLE,22,TRICK,26,SHADOWSNEAK,30,SUBSTITUTE,36,CURSE
+TutorMoves = CHARM,AGILITY,SCARYFACE,PROTECT,FACADE,PSYBEAM,DISARMINGVOICE,THUNDERFANG,SWIFT,STOREDPOWER,NIGHTSHADE,ENDURE,CALMMIND,ASSURANCE,BODYSLAM,SHADOWBALL,SLEEPTALK,SUBSTITUTE,REST,SHADOWSNEAK,CONFUSERAY,THIEF,KNOCKOFF,SPITE,DISABLE,SNORE,ASTONISH,TRICK
+EggMoves = FAKETEARS,CURSE,NASTYPLOT,IMPRISON,PERISHSONG,DISABLE
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.4
+Weight = 4.8
+Color = Brown
+Shape = Quadruped
+Habitat = Grassland
+Category = Observer
+Pokedex = Shrocadox is said to exist in a paradoxical state, both here and not. It often disappears from sight the moment you try to observe it closely.
+Evolutions = MIASMEOW,LevelPoisonInParty,28,FELUCID,Level,28
+Generation = 1
+#-------------------------------
+[FELUCID]
+Name = Felucid
+Types = NORMAL,PSYCHIC
+BaseStats = 70,50,60,95,90,140
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 140
+EVs = SPECIAL_ATTACK,2
+CatchRate = 120
+Happiness = 50
+Abilities = SYNCHRONIZE,IMMUNITY
+HiddenAbilities = MINDSEYE
+Moves = 1,SHADOWSNEAK,1,TRICK,1,FAKETEARS,1,NIGHTSHADE,28,LUCIDBLOOM,28,PSYBEAM,31,CALMMIND,34,DAZZLINGGLEAM,38,EXTRASENSORY,42,PSYCHICTERRAIN,46,EXPANDINGFORCE,50,LUCIDBLOOM
+TutorMoves = CHARM,AGILITY,SCARYFACE,PROTECT,FACADE,PSYBEAM,DISARMINGVOICE,THUNDERFANG,SWIFT,STOREDPOWER,NIGHTSHADE,ENDURE,CALMMIND,ASSURANCE,BODYSLAM,SHADOWBALL,SLEEPTALK,SUBSTITUTE,REST,PSYBEAM,ACROBATICS,CALMMIND,HELPINGHAND,DAZZLINGGLEAM,PSYSHOCK,FOULPLAY,THUNDERWAVE,EXPANDINGFORCE,ENCORE,EXTRASENSORY,TRICKROOM,PSYCHICTERRAIN,HYPNOSIS,MAGICCOAT,LIGHTSCREEN,REFLECT,FUTURESIGHT,TELEPORT
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.66
+Weight = 8.6
+Color = Purple
+Shape = BipedalTail
+Habitat = Grassland
+Category = Living Cat
+Pokedex = Felucid's third eye is said to only open in perfect balance. Its calm presence can heal and soothe even the most chaotic minds.
+Generation = 1
+#-------------------------------
+[MIASMEOW]
+Name = Miasmeow
+Types = POISON,GHOST
+BaseStats = 70,50,65,110,90,120
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 140
+EVs = SPECIAL_ATTACK,2
+CatchRate = 80
+Happiness = 20
+Abilities = CURSEDBODY,CORROSION
+HiddenAbilities = VENGENCE
+Moves = 1,SHADOWSNEAK,1,TRICK,1,FAKETEARS,1,NIGHTSHADE,28,VENOSHOCK,28,ROTTINGPAIN,31,WILLOWISP,34,TOXICSPIKES,38,HEX,42,SLUDGEBOMB,46,PAINSPLIT,50,ROTTINGPAIN
+TutorMoves = CHARM,AGILITY,SCARYFACE,PROTECT,FACADE,PSYBEAM,DISARMINGVOICE,THUNDERFANG,SWIFT,STOREDPOWER,NIGHTSHADE,ENDURE,CALMMIND,ASSURANCE,BODYSLAM,SHADOWBALL,SLEEPTALK,SUBSTITUTE,REST,POISONTAIL,VENOSHOCK,TOXICSPIKES,SLUDGE,POISONJAB,SHADOWCLAW,HEX,TOXIC,DARKPULSE,SLUDGEWAVE,WILLOWISP,VENOMDRENCH,HEX,CURSE,SLUDGEBOMB,DARKPULSE,GUNKSHOT,PAINSPLIT
+EggGroups = Field,Amorphous
+HatchSteps = 3840
+Height = 0.55
+Weight = 6.3
+Color = Purple
+Shape = BipedalTail
+Habitat = Grassland
+Category = Miasma Cat
+Pokedex = Miasmeow carries a stench of death and fog. Its ghostly body trails behind like mist, and it's said to haunt only those who notice it.
+Generation = 1
+#-------------------------------
+[PAVLOG]
+#-------------------------------
+[SLOBHUND]
+#-------------------------------
+[MUTTINY]
+#-------------------------------
+[SHOKUZUMI]
+#-------------------------------
+[STOATRICK]
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+[FANTAISEN]
+Name = Fantaisen
+Types = FAIRY,FIGHTING
+BaseStats = 90,120,85,70,75,85
+GenderRatio = Female25Percent
+GrowthRate = Medium
+BaseExp = 140
+EVs = ATTACK,2,SPEED,1
+CatchRate = 45
+Happiness = 20
+Abilities = POWEROFTEAMWORK,OPPORTUNIST
+HiddenAbilities = NOGUARD
+Moves = 1,FAIRYWIND,1,QUICKATTACK,5,HELPINGHAND,10,LOWKICK,15,SWIFT,20,DRAININGKISS,25,DETECT,30,DAZZLINGGLEAM,32,SWORDSDANCE,35,BATONPASS,38,BRICKBREAK,40,PLAYROUGH,45,FOCUSENERGY,50,AURASPHERE,52,FLAREBLITZ,55,MOONBLAST,58,BULKUP,60,AURASTORM,65,ENCORE,70,CLOSECOMBAT
+TutorMoves = COACHING,DRAINPUNCH,DRAININGKISS,FOCUSPUNCH,KNOCKOFF,ZENHEADBUTT,QUICKGUARD,WIDEGUARD,ALLYSWITCH,PROTECT,FACADE,SWIFT,ENDURE,SUBSTITUTE,REST,SLEEPTALK,HELPINGHAND,PLAYROUGH,DAZZLINGGLEAM,AURASPHERE,CLOSECOMBAT,SWORDSDANCE,REFLECT,LIGHTSCREEN,BATONPASS,ENCORE,TAUNT,THROATCHOP,BRICKBREAK,UTURN,FIREPUNCH,BULKUP,TRAILBLAZE,BODYPRESS,BLAZEKICK,CLOSECOMBAT
+EggMoves = BABYDOLLEYES,CHARM,FEINT,DETECT,QUICKGUARD,WIDEGUARD,COUNTER,MIRRORCOAT,DESTINYBOND,HEALBELL
+EggGroups = Field,Humanlike
+HatchSteps = 6169
+Height = 1.4
+Weight = 50
+Color = Red
+Shape = Bipedal
+Habitat = Grassland
+Category = Heroic
+Pokedex = Inspired by human stories of hero teams, this Pokémon evolved to mimic their colors and roles. Their bond strengthens when they fight side by side.
+Generation = 1
+#-------------------------------
+[GARDENOME]
+Name = Gardenome
+Types = GROUND,FAIRY
+BaseStats = 59,70,48,32,35,48
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 61
+EVs = HP,1
+CatchRate = 190
+Happiness = 50
+Abilities = STURDY,CUTECHARM
+HiddenAbilities = GRASSMUNCHER
+Moves = 1,TACKLE,1,DISARMINGVOICE,5,MAGICALLEAF,10,DIG,15,OMINOUSWIND,20,HEADSMASH,25,PLAYROUGH,30,ROLLOUT,35,SEEDBOMB,40,SELFDESTRUCT,45,DAZZLINGGLEAM,50,DRILLRUN
+TutorMoves = ALLURINGVOICE,BULLDOZE,CHARM,DAZZLINGGLEAM,DRAININGKISS,EARTHPOWER,EARTHQUAKE,EXPANDINGFORCE,FAIRYWIND,FUTURESIGHT,HELPINGHAND,LIGHTSCREEN,MUDSHOT,MISTYEXPLOSION,PAINSPLIT,PLAYROUGH,PSYCHIC,REFLECT,REST,SLEEPTALK,STOREDPOWER,TRICKROOM,UTURN,PROTECT,ALLYSWITCH,AROMATHERAPY,CALMMIND,CHARM,CONFUSERAY,DRILLRUN,GRASSYGLIDE,HIGHHORSEPOWER,HEALPULSE,IMPRISON,MAGICROOM,QUIVERDANCE,ROOST,SKILLSWAP,SNORE,TRICK,WONDERROOM
+EggMoves = WISH,MISTYTERRAIN,SWEETKISS,ENCORE,DISABLE,SKILLSWAP,MAGICCOAT,HIGHHORSEPOWER,STOMPINGTANTRUM,STEALTHROCK,ANCIENTPOWER,CURSE
+EggGroups = Humanlike,Mineral
+HatchSteps = 6169
+Height = 0.64
+Weight = 13.6
+Color = White
+Shape = Bipedal
+Habitat = Grassland
+Category = Gardening
+Pokedex = Its hat is as hard as stone. When threatened, Gardenome pulls its feet into its rocky beard and launches itself hat first.
+Generation = 1
+#-------------------------------
+
+#-------------------------------
+[MIKIDOL]
+Name = Mikidol
+Types = FAIRY
+BaseStats = 70,60,65,90,97,88
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 159
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = CUTECHARM,COSTAR
+HiddenAbilities = VOCALHARMONY
+Moves = 1,DISARMINGVOICE,1,CHARM,1,POUND,4,SING,7,ECHOEDVOICE,10,FAIRYWIND,13,ROUND,16,CONFUSION,19,SPARKLINGARIA,22,HYPERVOICE,25,THUNDERSHOCK,28,PLAYROUGH,31,ICYWIND,34,BOOMBURST,37,PSYCHIC,40,PERISHSONG,43,MOONLIGHT,46,SPIRITBREAK
+TutorMoves = CALMMIND,TOXIC,HIDDENPOWER,SUNNYDAY,HYPERBEAM,LIGHTSCREEN,PROTECT,RAINDANCE,SAFEGUARD,FRUSTRATION,THUNDERBOLT,RETURN,PSYCHIC,SHADOWBALL,DOUBLETEAM,REFLECT,FACADE,REST,ATTRACT,CHARGEBEAM,GIGAIMPACT,AURORAVEIL,DREAMEATER,SWAGGER,SLEEPTALK,SUBSTITUTE,TRICKROOM,DAZZLINGGLEAM,COVET,HELPINGHAND,MAGICCOAT,SHOCKWAVE,UPROAR,ROLEPLAY,MAGICROOM,MISTYTERRAIN,ENDEAVOR,KNOCKOFF,SIGNALBEAM,SKILLSWAP,TELEKINESIS,FLEURCANNON
+EggMoves = HEALBELL,MYSTICALFIRE,DESTINYBOND,METRONOME,DRAININGKISS
+EggGroups = Humanlike,Fairy
+HatchSteps = 6400
+Height = 0.4
+Weight = 2.5
+Color = Green
+Shape = HeadLegs
+Habitat = Urban
+Category = Pop Star
+Pokedex = Mikidols are mascots of joy and creativity, adored for their tiny concerts. Local tales describe them as spirits of song that bring good fortune.
+Generation = 1

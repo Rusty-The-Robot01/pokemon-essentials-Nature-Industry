@@ -1,0 +1,60 @@
+#-------------------------------
+[TOXICSLUDGE]
+Name = Toxic Sludge
+Description = The user spills out a puddle of toxic sludge.
+#-------------------------------
+[ETHEREAL]
+Name = Ethereal
+Description = The Pokémon becomes immune to contact moves.
+#-------------------------------
+[CAVITATION]
+Name = Cavitation
+Description = The Pokémon's punching moves hit twice.
+#-------------------------------
+[VOCALHARMONY]
+Name = Vocal Harmony
+Description = Its sound-based moves become Fairy-type.
+#-------------------------------
+[WINDDOWN]
+Name = Wind Down
+Description = The Pokémon starts winding down, lowering its stats.
+#-------------------------------
+[TREMOR]
+Name = Tremor
+Description = Powers up Ground-type moves in a pinch.
+#-------------------------------
+[REFINERY]
+Name = Refinery
+Description = Powers up Steel-type moves in a pinch.
+#-------------------------------
+[PERMAFROST]
+Name = Permafrost
+Description = Powers up Ice-type moves in a pinch
+#-------------------------------
+[BULKBOOST]
+Name = Bulk Boost
+Description = Its Attack stat is gradually boosted.
+#-------------------------------
+[POWEROFTEAMWORK]
+Name = Power of Teamwrk
+Description = Raises Attack and Speed for each ally with this ability.
+#-------------------------------
+[PARASITE]
+Name = Parasite
+Description = The Pokémon passes on its parasite to its Attacker.
+#-------------------------------
+[HALFDRAKE]
+Name = Half-Drake
+Description = Adds the Dragon type to itself.
+#-------------------------------
+[READIEDACTION]
+Name = Readied Action
+Description = Doubles attack on first turn.
+#-------------------------------
+[SLAPSTICK]
+Name = Slapstick
+Description = Raises all stats when hit by a Physical move.
+#-------------------------------
+[GRASSMUNCHER]
+Name = Grass Muncher
+Description = Restores HP when hit by a Grass-Type move.

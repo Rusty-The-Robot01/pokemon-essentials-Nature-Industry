@@ -6,22 +6,24 @@ Pokemon = DIGLETT,10
 Pokemon = BONSLY,11
 #-------------------------------
 [LEADER_Brock,Brock]
-Items = FULLRESTORE,FULLRESTORE
+Items = FULLRESTORE,FULLRESTORE,DYNAMAXBAND
 LoseText = Very good.
 Pokemon = GEODUDE,12
     Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
     AbilityIndex = 0
     Gender = male
     IV = 20,20,20,20,20,20
-Pokemon = ONIX,14
+Pokemon = COALOSSAL,30
     Name = Rocky
-    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    Moves = ANCIENTPOWER,GYROBALL,OVERHEAT,ROCKPOLISH
     AbilityIndex = 0
     Item = SITRUSBERRY
     Gender = male
     IV = 20,20,20,20,20,20
     Shiny = true
     Ball = HEAVYBALL
+	DynamaxLv = 10
+	Gigantamax = true
 #-------------------------------
 [TEAMROCKET_M,Grunt,1]
 LoseText = You're too good for me!
@@ -116,3 +118,12 @@ Pokemon = CHARIZARD,63
     Item = SITRUSBERRY
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
+#-------------------------------
+[POKEMONTRAINER_Camille1,Camille]
+LoseText = Ah... Dangit.
+Pokemon = PAWMI,5
+#-------------------------------
+[POKEMONTRAINER_Graham1,Graham]
+LoseText = Wait.. I lost? Seriously?.
+Pokemon = PAWMI,6
+Item = SITRUSBERRY
