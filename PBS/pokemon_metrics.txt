@@ -6293,3 +6293,9 @@ BackSprite = 2,34
 FrontSprite = 5,11
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[GARDENOME]
+BackSprite = 0,42
+FrontSprite = 2,19
+ShadowX = 0
+ShadowSize = 2

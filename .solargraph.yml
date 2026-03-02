@@ -1,6 +1,6 @@
 ---
 include:
-- "pokemon-essentials/Data/Scripts/**/*.rb"
+- "Data/Scripts/**/*.rb"
 - "Plugins/MAG/**/*.rb"
 - Rakefile
 - Gemfile
