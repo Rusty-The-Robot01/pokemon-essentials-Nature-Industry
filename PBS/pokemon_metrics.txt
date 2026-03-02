@@ -6299,3 +6299,9 @@ BackSprite = 0,42
 FrontSprite = 2,19
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[CAELUMYNI]
+BackSprite = 0,42
+FrontSprite = -1,4
+ShadowX = 0
+ShadowSize = 2
