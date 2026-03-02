@@ -11,8 +11,8 @@ CatchRate = 45
 Happiness = 50
 Abilities = TREMOR
 HiddenAbilities = SKYFORCE
-Moves = 1,TACKLE,1,TAILWHIP,4,DUSTKICK,7,QUICKATTACK,10,MUDSLAP,13,DOUBLETEAM,16,BULLDOZE,20,ACROBATICS,24,AGILITY,28,DIG,32,TAILWIND,36,EARTHPOWER,40,SKYDROP,44,EARTHQUAKE
-TutorMoves = ACROBATICS,IRONTAIL,UTURN,SWIFT,ENDEAVOR,BOUNCE,FLING,COVET,LOWKICK,MUDSHOT,DRILLRUN,DEFOG,HYPERBEAM,DIG,ROCKSLIDE,SMACKDOWN,EARTHQUAKE,BULLDOZE,MUDSLAP,PROTECT,RAINDANCE,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SWIFT,SUBSTITUTE,UTURN,ENDURE,ROOST,AERIALACE,ACROBATICS,TAILWIND
+Moves = 1,TACKLE,1,TAILWHIP,4,DUSTKICK,7,QUICKATTACK,10,MUDSLAP,13,DOUBLETEAM,16,BULLDOZE,19,ACROBATICS,22,AGILITY,25,DIG,28,TAILWIND,31,EARTHPOWER,34,SKYDROP,37,EARTHQUAKE,40,AERIALACE
+TutorMoves = ACROBATICS,IRONTAIL,UTURN,SWIFT,ENDEAVOR,BOUNCE,FLING,COVET,LOWKICK,MUDSHOT,DRILLRUN,DEFOG,HYPERBEAM,DIG,ROCKSLIDE,SMACKDOWN,EARTHQUAKE,BULLDOZE,MUDSLAP,PROTECT,RAINDANCE,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SWIFT,SUBSTITUTE,UTURN,ENDURE,ROOST,AERIALACE,TAILWIND
 EggMoves = SANDTOMB,QUICKGUARD,FEINT,AIRCUTTER,FAKEOUT,MUDSPORT,BATONPASS,ROCKCLIMB,SPIKES,WINGATTACK
 EggGroups = Field,Flying
 HatchSteps = 5120
@@ -23,9 +23,33 @@ Shape = BipedalTail
 Habitat = Grassland
 Category = Skidding
 Pokedex = Skidder darts across dusty hills, using its gliding flaps to ride on loose soil. It often practices sharp turns at high speeds, kicking up sand as a territorial display.
+Evolutions = CAELUMYNI,Level,16
 Generation = 1
 #-------------------------------
+[CAELUMYNI]
+Name = Caelumyni
+Types = GROUND,FLYING
+BaseStats = 70,85,55,90,40,60
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 145
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 70
+Abilities = TREMOR
+HiddenAbilities = SKYFORCE
+Moves = 1,TACKLE,1,TAILWHIP,1,DUSTKICK,1,QUICKATTACK,13,WORKUP,16,BULLDOZE,20,STUFFCHEEKS,24,GUST,28,DRILLPECK,32,DRILLRUN,36,TAILWIND,40,IRONTAIL,44,TOPSYTURVY,48,SKYATTACK
+TutorMoves = ACROBATICS,IRONTAIL,UTURN,SWIFT,ENDEAVOR,BOUNCE,FLING,COVET,LOWKICK,MUDSHOT,DRILLRUN,DEFOG,HYPERBEAM,DIG,ROCKSLIDE,SMACKDOWN,EARTHQUAKE,BULLDOZE,MUDSLAP,PROTECT,RAINDANCE,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SWIFT,SUBSTITUTE,UTURN,ENDURE,ROOST,AERIALACE,TAILWIND,HIGHHORSEPOWER,DUALWINGBEAT
+EggGroups = Field,Flying
+Height = 0.76
+Weight = 4.9
+Color = Brown
+Shape = BipedalTail
+Habitat = Grassland
+Category = Gliding
+Pokedex = Caelumyni soar above plains with newfound grace. Its tail spins like a propeller, steering it through gusty winds.
 #-------------------------------
+[AEROBARRON]
 #-------------------------------
 [GELOZEE]
 Name = Gelozee
@@ -53,7 +77,9 @@ Category = Frost Punch
 Pokedex = Gelozee trains by throwing punches at snow-covered trees to toughen its knuckles. When the cold gets harsher, it only trains harder, treating the chill as a sparring partner.
 Generation = 1
 #-------------------------------
+[SIMILURE]
 #-------------------------------
+[PUGILAPE]
 #-------------------------------
 [CLANKLET]
 Name = Clanklet
@@ -81,7 +107,9 @@ Category = Apprentice
 Pokedex = Clanklet scuttles along rocky shores, collecting metal scraps to patch its shell. Its pincers clang like hammers, shaping debris into crude armor.
 Generation = 1
 #-------------------------------
+[CRUSTURGOS]
 #-------------------------------
+[CANCROSTUS]
 #-------------------------------
 [WORREY]
 Name = Worrey
@@ -135,19 +163,21 @@ Category = Brown
 Pokedex = Troops of Quakkedi put on shows to entertain other Pokemon. They will juggle anything they can hold.
 Generation = 1
 #-------------------------------
-
+[PRELUNE]
 #-------------------------------
-
+[ARILOON]
 #-------------------------------
-
+[MEISTROON]
 #-------------------------------
-
+[COSMITE]
 #-------------------------------
-
+[VANTALING]
 #-------------------------------
-
+[NEBULIEGE]
 #-------------------------------
-
+[SNAILURE]
+#-------------------------------
+[GASTROLORID]
 #-------------------------------
 
 #-------------------------------
@@ -233,9 +263,9 @@ Generation = 1
 #-------------------------------
 [MUTTINY]
 #-------------------------------
-[SHOKUZUMI]
-#-------------------------------
 [STOATRICK]
+#-------------------------------
+[SHOKOZUMI]
 #-------------------------------
 
 #-------------------------------
@@ -301,7 +331,7 @@ Category = Gardening
 Pokedex = Its hat is as hard as stone. When threatened, Gardenome pulls its feet into its rocky beard and launches itself hat first.
 Generation = 1
 #-------------------------------
-
+[WINDUMUP]
 #-------------------------------
 [MIKIDOL]
 Name = Mikidol
@@ -328,3 +358,177 @@ Habitat = Urban
 Category = Pop Star
 Pokedex = Mikidols are mascots of joy and creativity, adored for their tiny concerts. Local tales describe them as spirits of song that bring good fortune.
 Generation = 1
+#-------------------------------
+[CEPHALOBEARD]
+#-------------------------------
+[CROAKETTLE]
+#-------------------------------
+[VATRAULDRON]
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+[SOCPENT]
+#-------------------------------
+[WYVYARN]
+#-------------------------------
+[DRAKLUSH]
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+[ITSUMI]
+#-------------------------------
+[JUMPUMAN]
+#-------------------------------
+[SHRIMPUNCH]
+#-------------------------------
+[SPIRETTE]
+#-------------------------------
+[OUIJHOST]
+#-------------------------------
+[MIRASAKO]
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+
+#-------------------------------
+[WENDIKID]
+#-------------------------------
+[CRYPTIGO]
+#-------------------------------
+[WENDIGHOUL]
