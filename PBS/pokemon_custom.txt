@@ -2,7 +2,7 @@
 [SKIDDER]
 Name = Skidder
 Types = GROUND
-BaseStats = 45,65,50,40,45,65
+BaseStats = 55,65,40,79,30,40
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 64
@@ -29,7 +29,7 @@ Generation = 1
 [CAELUMYNI]
 Name = Caelumyni
 Types = GROUND,FLYING
-BaseStats = 70,85,55,90,40,60
+BaseStats = 70,85,55,95,40,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 145
@@ -38,7 +38,7 @@ CatchRate = 45
 Happiness = 70
 Abilities = TREMOR
 HiddenAbilities = SKYFORCE
-Moves = 1,TACKLE,1,TAILWHIP,1,DUSTKICK,1,QUICKATTACK,13,WORKUP,16,BULLDOZE,18,ACROBATICS,20,STUFFCHEEKS,24,GUST,28,DRILLPECK,32,DRILLRUN,36,TAILWIND,40,IRONTAIL,44,TOPSYTURVY,48,SKYATTACK
+Moves = 1,TACKLE,1,TAILWHIP,1,DUSTKICK,1,QUICKATTACK,13,WORKUP,16,BULLDOZE,18,ACROBATICS,20,STUFFCHEEKS,24,GUST,28,DRILLPECK,32,DRILLRUN,36,TAILWIND,40,IRONTAIL,44,TOPSYTURVY,48,BRAVEBIRD,52,HEADLONGRUSH,57,SKYATTACK
 TutorMoves = ACROBATICS,IRONTAIL,UTURN,SWIFT,ENDEAVOR,BOUNCE,FLING,COVET,LOWKICK,MUDSHOT,DRILLRUN,DEFOG,HYPERBEAM,DIG,ROCKSLIDE,SMACKDOWN,EARTHQUAKE,BULLDOZE,MUDSLAP,PROTECT,RAINDANCE,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SWIFT,SUBSTITUTE,UTURN,ENDURE,ROOST,AERIALACE,TAILWIND,HIGHHORSEPOWER,DUALWINGBEAT
 EggGroups = Field,Flying
 Height = 0.76
@@ -54,7 +54,7 @@ Pokedex = Caelumyni soar above plains with newfound grace. Its tail acts like a 
 [GELOZEE]
 Name = Gelozee
 Types = ICE
-BaseStats = 50,70,45,40,40,65
+BaseStats = 50,74,45,60,40,40
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 64
@@ -78,13 +78,36 @@ Pokedex = Gelozee trains by throwing punches at snow-covered trees to toughen it
 Generation = 1
 #-------------------------------
 [SIMILURE]
+Name = Similure
+Types = ICE,FIGHTING
+BaseStats = 65,85,60,85,45,60
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 142
+EVs = ATTACK,1,HP,1
+CatchRate = 45
+Happiness = 50
+Abilities = PERMAFROST
+HiddenAbilities = IRONFIST
+Moves = 1,POUND,1,LEER,10,FROSTNIP,13,FOCUSENERGY,20,ICEPUNCH,24,BULKUP,31,BRUTALSWING,35,SNARL,42,SKYUPPERCUT,46,MEGAPUNCH,53,DYNAMICPUNCH,57,SUCKERPUNCH,64,WHIRLWINDFIST,68,FOCUSPUNCH,75,GIGAIMPACT
+TutorMoves = ICEPUNCH,DRAINPUNCH,LOWKICK,DUALCHOP,FIREPUNCH,THUNDERPUNCH,FAKEOUT,ROLEPLAY,FOCUSPUNCH,HELPINGHAND,ICEBEAM,BLIZZARD,LOWSWEEP,BRICKBREAK,FOCUSBLAST,PROTECT,HAIL,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SUBSTITUTE,ENDURE,FOCUSENERGY,BULKUP,SWORDSDANCE
+EggGroups = Field,Humanlike
+HatchSteps = 5120
+Height = 1.09
+Weight = 11.5
+Color = White
+Shape = BipedalTail
+Habitat = Grassland
+Category = Ice Boxer
+Pokedex = After punching trees over and over again, Similure’s fists have grown bulkier and more dense. Ice spikes now surround its wrists, bracing them for even harder punches.
+Generation = 1
 #-------------------------------
 [PUGILAPE]
 #-------------------------------
 [CLANKLET]
 Name = Clanklet
 Types = STEEL
-BaseStats = 55,65,60,35,50,45
+BaseStats = 50,55,75,30,35,64
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 64
