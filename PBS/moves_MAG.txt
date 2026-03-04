@@ -272,7 +272,7 @@ FunctionCode = TypeAndPowerDependOnWeather
 Flags = CanProtect,CanMirrorMove,Slicing
 Description = An attack move that varies in power and type depending on the weather.
 #-------------------------------
-[WHIRLWIDNFIST]
+[WHIRLWINDFIST]
 Name = Whirlwind Fist
 Type = FIGHTING
 Category = Physical

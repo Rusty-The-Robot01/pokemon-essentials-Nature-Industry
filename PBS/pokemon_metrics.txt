@@ -6305,3 +6305,9 @@ BackSprite = 0,42
 FrontSprite = -1,4
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[SIMILURE]
+BackSprite = 0,41
+FrontSprite = 0,19
+ShadowX = 0
+ShadowSize = 2

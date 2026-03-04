@@ -75,6 +75,7 @@ Shape = BipedalTail
 Habitat = Grassland
 Category = Frost Punch
 Pokedex = Gelozee trains by throwing punches at snow-covered trees to toughen its knuckles. When the cold gets harsher, it only trains harder, treating the chill as a sparring partner.
+Evolutions = SIMILURE,Level,16
 Generation = 1
 #-------------------------------
 [SIMILURE]
