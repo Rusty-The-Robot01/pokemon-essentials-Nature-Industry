@@ -12,8 +12,8 @@ class Battle::Scene::MenuBase
 
   # NOTE: Button width is half the width of the graphic containing them all.
   BUTTON_HEIGHT = 46
-  TEXT_BASE_COLOR   = Battle::Scene::MESSAGE_BASE_COLOR
-  TEXT_SHADOW_COLOR = Battle::Scene::MESSAGE_SHADOW_COLOR
+  TEXT_BASE_COLOR   = Color.new(201,201,201)
+  TEXT_SHADOW_COLOR = Color.new(38,38,38)
 
   def initialize(viewport = nil)
     @x          = 0
