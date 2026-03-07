@@ -221,8 +221,8 @@ class PokemonPokedexInfo_Scene
   def drawPageInfo
     @sprites["background"].setBitmap(_INTL("Graphics/UI/Pokedex/bg_info"))
     overlay = @sprites["overlay"].bitmap
-    base   = Color.new(88, 88, 80)
-    shadow = Color.new(168, 184, 184)
+    base   = Color.new(201,201,201)
+    shadow = Color.new(38,38,38)
     imagepos = []
     imagepos.push([_INTL("Graphics/UI/Pokedex/overlay_info"), 0, 0]) if @brief
     species_data = GameData::Species.get_species_form(@species, @form)
@@ -235,7 +235,7 @@ class PokemonPokedexInfo_Scene
     end
     textpos = [
       [_INTL("{1}{2} {3}", indexText, " ", species_data.name),
-       246, 48, :left, Color.new(248, 248, 248), Color.black]
+       246, 48, :left, Color.new(201,201,201), Color.new(38,38,38)]
     ]
     if @show_battled_count
       textpos.push([_INTL("Number Battled"), 314, 164, :left, base, shadow])
@@ -354,8 +354,8 @@ class PokemonPokedexInfo_Scene
   def drawPageArea
     @sprites["background"].setBitmap(_INTL("Graphics/UI/Pokedex/bg_area"))
     overlay = @sprites["overlay"].bitmap
-    base   = Color.new(88, 88, 80)
-    shadow = Color.new(168, 184, 184)
+    base   = Color.new(201,201,201)
+    shadow = Color.new(38,38,38)
     @sprites["areahighlight"].bitmap.clear
     # Get all points to be shown as places where @species can be encountered
     points = pbGetEncounterPoints
@@ -403,8 +403,8 @@ class PokemonPokedexInfo_Scene
   def drawPageForms
     @sprites["background"].setBitmap(_INTL("Graphics/UI/Pokedex/bg_forms"))
     overlay = @sprites["overlay"].bitmap
-    base   = Color.new(88, 88, 80)
-    shadow = Color.new(168, 184, 184)
+    base   = Color.new(201,201,201)
+    shadow = Color.new(38,38,38)
     # Write species and form name
     formname = ""
     @available.each do |i|

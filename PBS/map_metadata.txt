@@ -102,6 +102,12 @@ MapPosition = 0,14,8
 BattleBack = field
 MapSize = 1,11
 #-------------------------------
+[022]   # Test Map
+Name = Test Map
+Outdoor = true
+BattleBack = field
+Environment = None
+#-------------------------------
 [023]   # Lerucean Town
 Name = Lerucean Town
 Outdoor = true
