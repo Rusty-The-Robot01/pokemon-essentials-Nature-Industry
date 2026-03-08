@@ -6311,3 +6311,15 @@ BackSprite = 0,41
 FrontSprite = 0,19
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[COSMITE]
+BackSprite = 0,41
+FrontSprite = 0,22
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SNAILURE]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
