@@ -1,0 +1,6 @@
+Name         = Rusty's Abilities
+Version      = 0.5
+Essentials   = 21.1
+Requires     = v21.1 Hotfixes,1.0.9
+Requires     = M.A.G (Moves & Abilities Galore)
+Credits      = Rusty_The_Robot
