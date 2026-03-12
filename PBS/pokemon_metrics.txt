@@ -6319,7 +6319,7 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [SNAILURE]
-BackSprite = 0,0
-FrontSprite = 0,0
+BackSprite = 0,58
+FrontSprite = -3,35
 ShadowX = 0
 ShadowSize = 2
