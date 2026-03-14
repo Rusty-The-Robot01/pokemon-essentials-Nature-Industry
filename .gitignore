@@ -1,7 +1,5 @@
 # Audio, Graphics and Plugins folders
 Audio/
-Plugins/
-!Plugins/RustyMovesAndAbilities/
 Screenshots/
 
 # Data folder, but not Data/Scripts folder or messages_core.dat
