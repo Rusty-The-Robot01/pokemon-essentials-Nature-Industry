@@ -584,8 +584,56 @@ Generation = 1
 [SHRIMPUNCH]
 #-------------------------------
 [SPIRETTE]
+Name = Spirette
+Types = ROCK,GHOST
+BaseStats = 45,40,60,50,55,65
+GenderRatio = Genderless
+GrowthRate = Fast
+BaseExp = 59
+EVs = SPECIAL_ATTACK,1
+CatchRate = 120
+Happiness = 35
+Abilities = LEVITATE
+HiddenAbilities = CURSEDBODY
+Moves = 1,ASTONISH,4,HARDEN,7,SANDATTACK,10,CONFUSERAY,16,ROCKTOMB,19,NIGHTSHADE,22,FUTURESIGHT,26,OMINOUSWIND,30,HEX,34,POWERGEM,38,IMPRISON,42,SHADOWBALL,48,POLTERGEIST
+TutorMoves = SHADOWBALL,HEX,PHANTOMFORCE,POLTERGEIST,CONFUSERAY,ROCKTOMB,ROCKSLIDE,STONEEDGE,POWERGEM,STEALTHROCK,PSYCHIC,FUTURESIGHT,TRICKROOM,IMPRISON,CALMMIND,FOULPLAY,THIEF,SNARL,TAUNT,PROTECT,SUBSTITUTE,REST,SLEEPTALK,ENDURE,SAFEGUARD,WILLOWISP,HELPINGHAND,FACADE
+EggMoves = DESTINYBOND,DISABLE,MEMENTO,PAINSPLIT,SPITE,CURSE,ALLYSWITCH,PERISHSONG,MEANLOOK
+EggGroups = Mineral,Amorphous
+HatchSteps = 6425
+Height = 0.3
+Weight = 0.45
+Color = Black
+Shape = Head
+Habitat = Grassland
+Category = Conjouring
+Pokedex = Spirette drift silently across old tables and floors. It is said they gather where people attempt to contact spirits.
+Evolutions = OUIJHOST,Level,28
+Generation = 1
 #-------------------------------
 [OUIJHOST]
+Name = Ouijhost
+Types = ROCK,GHOST
+BaseStats = 75,55,100,60,105,95
+GenderRatio = Genderless
+GrowthRate = Fast
+BaseExp = 159
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 35
+Abilities = LEVITATE
+HiddenAbilities = CURSEDBODY
+Moves = 1,ASTONISH,1,CONFUSERAY,1,ROCKTOMB,16,NIGHTSHADE,19,FUTURESIGHT,22,OMINOUSWIND,26,HEX,30,POWERGEM,34,IMPRISON,40,SHADOWBALL,46,TRICKROOM,53,POLTERGEIST
+TutorMoves = SHADOWBALL,HEX,PHANTOMFORCE,POLTERGEIST,CONFUSERAY,ROCKTOMB,ROCKSLIDE,STONEEDGE,POWERGEM,STEALTHROCK,PSYCHIC,FUTURESIGHT,TRICKROOM,IMPRISON,CALMMIND,FOULPLAY,THIEF,SNARL,TAUNT,PROTECT,SUBSTITUTE,REST,SLEEPTALK,ENDURE,SAFEGUARD,WILLOWISP,HELPINGHAND,FACADE,DARKPULSE,PAINSPLIT,DESTINYBOND,TRICK,PSYCHICTERRAIN
+EggGroups = Mineral,Amorphous
+HatchSteps = 6425
+Height = 1.2
+Weight = .68
+Color = Black
+Shape = Head
+Habitat = Grassland
+Category = Cursed
+Pokedex = Ouijhost forms when restless spirits inhabit an abandoned spirit board. Its floating planchette rapidly spells messages no one asked to see.
+Generation = 1
 #-------------------------------
 [MIRASAKO]
 #-------------------------------

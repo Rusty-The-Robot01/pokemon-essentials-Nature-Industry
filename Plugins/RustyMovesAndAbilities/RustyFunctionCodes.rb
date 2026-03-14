@@ -160,3 +160,13 @@ class Battle::Move::LowerTargetAccuracy1Confuse < Battle::Move
     target.pbConfuse if target.pbCanConfuse?(user, false, self)
   end
 end
+
+#===============================================================================
+# User's Speed is used instead of user's Attack for this move's calculations.
+# (Aerial Ace)
+#===============================================================================
+class Battle::Move::MySpeedIsMyAttack < Battle::Move
+  def pbGetAttackStats(user, target)
+    return user.speed, target.stages[:SPEED] + Battle::Battler::STAT_STAGE_MAXIMUM
+  end
+end
