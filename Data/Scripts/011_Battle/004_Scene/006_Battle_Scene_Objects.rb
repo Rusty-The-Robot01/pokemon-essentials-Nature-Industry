@@ -18,7 +18,7 @@ class Battle::Scene::PokemonDataBox < Sprite
   # Height in pixels of a status icon
   STATUS_ICON_HEIGHT = 16
   # Text colors
-  NAME_BASE_COLOR         = Color.new(200, 200, 200)
+  NAME_BASE_COLOR         = Color.new(255, 255, 255)
   NAME_SHADOW_COLOR       = Color.new(0, 0, 0)
   MALE_BASE_COLOR         = Color.new(48, 96, 216)
   MALE_SHADOW_COLOR       = NAME_SHADOW_COLOR
@@ -220,20 +220,39 @@ class Battle::Scene::PokemonDataBox < Sprite
   end
 
   def draw_name
-    nameWidth = self.bitmap.text_size(@battler.name).width
-    nameOffset = 0
-    nameOffset = nameWidth - 116 if nameWidth > 116
-    pbDrawTextPositions(self.bitmap, [[@battler.name, @spriteBaseX + 8 - nameOffset, 12, :left,
-                                       NAME_BASE_COLOR, NAME_SHADOW_COLOR]]
-    )
+  name = @battler.name
+  nameWidth = self.bitmap.text_size(name).width
+  nameOffset = (nameWidth > 130) ? nameWidth - 130 : 0
+
+  x = @spriteBaseX + 8 - nameOffset
+  y = 12
+
+  outline_color = Color.new(0, 0, 0)
+  base_color    = NAME_BASE_COLOR
+
+  thickness = 2
+
+  width  = nameWidth + 4
+  height = 32
+
+  # Outline (FULL square, no smoothing)
+  self.bitmap.font.color = outline_color
+  for dx in -thickness..thickness
+    for dy in -thickness..thickness
+      next if dx == 0 && dy == 0
+      self.bitmap.draw_text(x + dx, y + dy, width, height, name)
+    end
   end
 
+  # Main text (no shadow)
+  self.bitmap.font.color = base_color
+  self.bitmap.draw_text(x, y, width, height, name)
+end
+
   def draw_level
-    # "Lv" graphic
-    pbDrawImagePositions(self.bitmap, [[_INTL("Graphics/UI/Battle/overlay_lv"), @spriteBaseX + 140, 16]])
-    # Level number
-    pbDrawNumber(@battler.level, self.bitmap, @spriteBaseX + 162, 16)
-  end
+  pbDrawImagePositions(self.bitmap, [[_INTL("Graphics/UI/Battle/overlay_lv"), @spriteBaseX + 140, 16]])
+  pbDrawNumber(@battler.level, self.bitmap, @spriteBaseX + 162, 16)
+end
 
   def draw_gender
     gender = @battler.displayGender
