@@ -51,31 +51,6 @@ Flags = CanProtect,CanMirrorMove,Contact
 EffectChance = 10
 Description = The user kicks up a stinging cloud of grit and dust. May lower accuracy.
 #-------------------------------
-[STEALSCRAP]
-Name = Steal Scrap
-Type = STEEL
-Category = Physical
-Power = 50
-Accuracy = 100
-TotalPP = 16
-Target = NearOther
-FunctionCode = LowerTargetSpeed1AndUserTakesTargetItem
-Flags = CanProtect,CanMirrorMove,Contact
-Description = The user attempts to steal the target’s held item by surprise, lowering speed.
-#-------------------------------
-[JUNKBARRAGE]
-Name = Junk Barrage
-Type = STEEL
-Category = Physical
-Power = 25
-Accuracy = 95
-TotalPP = 16
-Target = NearOther
-FunctionCode = PoisonFlinchOrDefenseDropTarget
-Flags = CanProtect,CanMirrorMove,Contact
-EffectChance = 30
-Description = The user attempts to steal the target’s held item by surprise, lowering speed.
-#-------------------------------
 [LUCIDBLOOM]
 Name = Lucid Heal
 Type = PSYCHIC
@@ -111,3 +86,16 @@ FunctionCode = LowerTargetAccuracy1Confuse
 Flags = CanProtect,CanMirrorMove,Bomb,Powder
 EffectChance = 30
 Description = The user fires a burst of colorful confetti at the target.
+#----------------------------------
+[POTIONFLING]
+Name = Potion Fling
+Type = POISON
+Category = Physical
+Power = 75
+Accuracy = 90
+TotalPP = 8
+Target = NearOther
+FunctionCode = ParalyzeBurnOrPoisonTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 15
+Description = The user flings a potion from its mouth. The potion thrown has a chance to burn, poison, or paralyze.

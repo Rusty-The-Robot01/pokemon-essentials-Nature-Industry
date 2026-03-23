@@ -58,3 +58,7 @@ Description = Raises all stats when hit by a Physical move.
 [GRASSMUNCHER]
 Name = Grass Muncher
 Description = Restores HP when hit by a Grass-Type move.
+#-------------------------------
+[PREYLURE]
+Name = Prey Lure
+Description = The first time the Pokemon is hit, it changes to its predator form and bites the opponent.

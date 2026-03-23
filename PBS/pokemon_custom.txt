@@ -499,9 +499,57 @@ Generation = 1
 #-------------------------------
 [CEPHALOBEARD]
 #-------------------------------
-[CROAKETTLE]
+[POLLIXIR]
+Name = Pollixir
+Types = POISON,FAIRY
+BaseStats = 65,40,30,45,45,30
+GenderRatio = Female50Percent
+GrowthRate = Parabolic 
+BaseExp = 36
+EVs = SPECIAL_ATTACK,1
+CatchRate = 235
+Happiness = 70
+Abilities = CLEARBODY,LIQUIDOOZE
+HiddenAbilities = POWEROFALCHEMY
+Moves = 1,POISONSTING,1,CHARM,4,BUBBLE,7,SWEETSCENT,10,ACID,13,BABYDOLLEYES,16,CLEARSMOG,20,DRAININGKISS,24,VENOSHOCK,28,ICYWIND,32,MUDSHOT,36,MOONLIGHT,40,SLUDGEBOMB
+TutorMoves = ACIDSPRAY,CORROSIVEGAS,MISTYTERRAIN,GUNKSHOT,PLAYROUGH,BOUNCE,AMNESIA,GASTROACID,HEALBELL,WEATHERBALL,PROTECT,SUBSTITUTE,REST,SLEEPTALK,FACADE,TOXICSPIKES,VENOSHOCK,SLUDGEBOMB,DAZZLINGGLEAM,DRAININGKISS,LIGHTSCREEN,REFLECT,SAFEGUARD,RAINDANCE,SUNNYDAY,ICYWIND,MUDSHOT,ENERGYBALL,HEX
+EggMoves = HAZE,CONFUSERAY,DISABLE,RECOVER,TOXICSPIKES,ENCORE,INFESTATION,STRENGTHSAP,PERISHSONG
+EggGroups = Fairy,Amorphous
+HatchSteps = 3407
+Height = 0.03
+Weight = 1.8
+Color = Green
+Shape = Serpentine
+Habitat = Rare
+Category = Elixir
+Pokedex = Pollixir's clear body is full of a potion like substance. It keeps mixing it around, waiting for it to be just right.
+Evolutions = BOUFULDRON,Level,33
+Generation = 1
 #-------------------------------
-[VATRAULDRON]
+[BOUFULDRON]
+Name = Boufuldron
+Types = POISON,FAIRY
+BaseStats = 95,60,80,5,110,90
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 225
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 70
+Abilities = POISONTOUCH,LIQUIDOOZE
+HiddenAbilities = POWEROFALCHEMY
+Moves = 1,VENOSHOCK,1,DRAININGKISS,1,CLEARSMOG,1,ICYWIND,34,ACIDSPRAY,38,MYSTICALFIRE,42,SLUDGEBOMB,46,DAZZLINGGLEAM,50,SCALD,55,POTIONFLING,58,TOXIC,62,ENERGYBALL,66,HEX,70,MOONBLAST,74,SLUDGEWAVE
+TutorMoves = ACIDSPRAY,CORROSIVEGAS,GASTROACID,MISTYTERRAIN,GRASSYTERRAIN,TRICK,GUNKSHOT,WEATHERBALL,AMNESIA,HEALBELL,BOUNCE,PROTECT,SUBSTITUTE,REST,SLEEPTALK,ENDURE,TOXICSPIKES,VENOSHOCK,SLUDGEBOMB,SLUDGEWAVE,DAZZLINGGLEAM,DRAININGKISS,LIGHTSCREEN,REFLECT,SAFEGUARD,RAINDANCE,SUNNYDAY,SCALD,MYSTICALFIRE,THUNDERBOLT,ENERGYBALL,HEX,DARKPULSE
+EggGroups = Fairy,Amorphous
+HatchSteps = 3407
+Height = 1.1
+Weight = 36.28
+Color = Black
+Shape = Bipedal
+Habitat = Rare
+Category = Witch's Brew
+Pokedex = Boufuldron's potion sac is contantly being mixed with new ingredients. Every day it can produce up to 200 elixirs in just one batch.
+Generation = 1
 #-------------------------------
 
 #-------------------------------
