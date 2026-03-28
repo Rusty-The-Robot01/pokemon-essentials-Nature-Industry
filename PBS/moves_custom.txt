@@ -99,3 +99,16 @@ FunctionCode = ParalyzeBurnOrPoisonTarget
 Flags = CanProtect,CanMirrorMove,Bomb
 EffectChance = 15
 Description = The user flings a potion from its mouth. The potion thrown has a chance to burn, poison, or paralyze.
+#----------------------------------
+[CHEAPSHOT]
+Name = Cheap Shot
+Type = NORMAL
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = AttacksIfStatus
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user launches a cheap attack, fails if the opponent isn't using a status move

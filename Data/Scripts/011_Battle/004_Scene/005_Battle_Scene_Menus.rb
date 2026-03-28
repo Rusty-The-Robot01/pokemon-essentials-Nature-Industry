@@ -349,8 +349,7 @@ class Battle::Scene::FightMenu < Battle::Scene::MenuBase
       next if !@visibility["button_#{i}"]
       x = button.x - self.x + (button.src_rect.width / 2)
       y = button.y - self.y + 14
-      moveNameBase = Color.new(0, 0, 0)
-      #moveNameBase = TEXT_BASE_COLOR
+      moveNameBase = TEXT_BASE_COLOR
       if GET_MOVE_TEXT_COLOR_FROM_MOVE_BUTTON && moves[i].display_type(@battler)
         # NOTE: This takes a color from a particular pixel in the button
         #       graphic and makes the move name's base color that same color.
