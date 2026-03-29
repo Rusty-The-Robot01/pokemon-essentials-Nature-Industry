@@ -117,8 +117,8 @@ CatchRate = 45
 Happiness = 50
 Abilities = REFINERY
 HiddenAbilities = STAMINA
-Moves = 1,TACKLE,1,HARDEN,4,METALSHARD,7,LEER,10,ROCKTHROW,13,IRONDEFENSE,16,METALCLAW,20,SMACKDOWN,24,WORKUP,28,IRONHEAD,32,STEALTHROCK,36,HEAVYSLAM,40,ROCKSLIDE
-TutorMoves = IRONDEFENSE,IRONHEAD,ROCKBLAST,BULLETPUNCH,MAGNETRISE,METALSOUND,MUDSLAP,ROLLOUT,WIDEGUARD,BLOCK,ANCIENTPOWER,METALCLAW,SMACKDOWN,ROCKSLIDE,IRONDEFENSE,ROCKBLAST,HEAVYSLAM,GYROBALL,PROTECT,RAINDANCE,REST,SNORE,SLEEPTALK,DOUBLETEAM,FACADE,SUBSTITUTE,ENDURE,WORKUP
+Moves = 1,TACKLE,1,HARDEN,4,METALSHARD,8,LEER,12,SMACKDOWN,15,METALCLAW,18,ROCKTOMB,22,PROTECT,26,IRONDEFENSE,30,IRONHEAD,34,BULLDOZE,38,SLAM,42,STEALTHROCK,46,HEAVYSLAM
+TutorMoves = IRONHEAD,FLASHCANNON,IRONDEFENSE,STEELBEAM,ROCKTOMB,ROCKSLIDE,STONEEDGE,STEALTHROCK,BULLDOZE,EARTHQUAKE,BRICKBREAK,BODYPRESS,PROTECT,SUBSTITUTE,REST,SLEEPTALK,ENDURE,FACADE
 EggMoves = METALBURST,ANCIENTPOWER,ROCKPOLISH,SANDTOMB,MUDSHOT,SPIKES,CRUSHCLAW,WIDEGUARD,HARDEN,GUARDSPLIT
 EggGroups = Mineral,Water3
 HatchSteps = 5120
@@ -127,11 +127,35 @@ Weight = 17.5
 Color = Gray
 Shape = Insectoid
 Habitat = WatersEdge
-Category = Apprentice
-Pokedex = Clanklet scuttles along rocky shores, collecting metal scraps to patch its shell. Its pincers clang like hammers, shaping debris into crude armor.
+Category = Smithing
+Pokedex = It stores tiny metal fragments inside its shell and heats them using internal friction. Though still inexperienced, it takes great pride in shaping its first creations.
+Evolutions = CRUSTURGOS,Level,16
 Generation = 1
 #-------------------------------
 [CRUSTURGOS]
+Name = Crusturgos
+Types = STEEL
+BaseStats = 65,75,95,40,45,85
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 64
+EVs = DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = REFINERY
+HiddenAbilities = STAMINA
+Moves = 1,TACKLE,1,HARDEN,1,LEER,1,METALSHARD,12,SMACKDOWN,16,METALCLAW,20,ROCKTOMB,24,IRONDEFENSE,28,BULLDOZE,32,IRONHEAD,36,SLAM,40,STEALTHROCK,44,HEAVYSLAM,48,STONEEDGE
+TutorMoves = IRONHEAD,FLASHCANNON,IRONDEFENSE,STEELBEAM,ROCKTOMB,ROCKSLIDE,STONEEDGE,STEALTHROCK,BULLDOZE,EARTHQUAKE,BRICKBREAK,BODYPRESS,PROTECT,SUBSTITUTE,REST,SLEEPTALK,ENDURE,FACADE
+EggGroups = Mineral,Water3
+HatchSteps = 5120
+Height = 1.1
+Weight = 68.0
+Color = White
+Shape = Insectoid
+Habitat = WatersEdge
+Category = Forge
+Pokedex = The fire within its shell never goes out. It is said that villages once relied on Crusturgos to craft tools before modern indusrty took over.
+Generation = 1
 #-------------------------------
 [CANCROSTUS]
 #-------------------------------

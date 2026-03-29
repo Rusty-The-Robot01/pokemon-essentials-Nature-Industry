@@ -6323,3 +6323,9 @@ BackSprite = 0,58
 FrontSprite = -3,35
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[CRUSTURGOS]
+BackSprite = 0,44
+FrontSprite = -7,20
+ShadowX = 0
+ShadowSize = 3
