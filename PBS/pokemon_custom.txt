@@ -341,7 +341,9 @@ Habitat = Urban
 Category = Host
 Pokedex = Gastrolorid’s eye stalks glow with shifting bands of light. Small bird Pokémon are inexplicably drawn toward the display.
 #-------------------------------
-
+[STRAWG]
+#-------------------------------
+[SCARECROAK]
 #-------------------------------
 [SHROCADOX]
 Name = Shrocadox
