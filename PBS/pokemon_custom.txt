@@ -443,6 +443,7 @@ Generation = 1
 #-------------------------------
 [FANTAISEN]
 Name = Fantaisen
+FormName = Red
 Types = FAIRY,FIGHTING
 BaseStats = 90,120,85,70,75,85
 GenderRatio = Female25Percent
